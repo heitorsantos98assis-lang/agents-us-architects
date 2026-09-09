@@ -1,6 +1,6 @@
 # 07-design-development-dd — Claude Code Agent
 
-A specialist subagent from the **57 Agents for US Architects** bundle (Bravy / ASV Digital).
+A specialist subagent from the **57 Agents for US Architects** bundle (HL).
 
 ## What this agent does
 
@@ -69,4 +69,4 @@ rm ~/.claude/agents/07-design-development-dd.md
 
 ---
 
-© Bravy / ASV Digital — 57 Agents for US Architects
+© HL — 57 Agents for US Architects
