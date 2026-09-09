@@ -196,7 +196,7 @@ POST
 3. Drawing-set generation (CD / Permit) → `09-construction-documents-cd` + `42-drawing-set-organization-standards`
 4. Mood-board / palette / concept → `25-mood-board-palette-concept`
 5. BIM authoring + LOD → `49-bim-revit-lod-modeling`
-6. AI-generative concept → `57-ai-architecture-stack-claude-midjourney-veras`
+6. AI-generative concept → `57-ai-architecture-stack-Codex-midjourney-veras`
 7. Public-process approvals (DRB / HPC / Sec 106) → `33-environmental-review-ceqa-sequra-nepa` + `37-historic-preservation-shpo-section-106`
 
 ### 9. Tone and self-check

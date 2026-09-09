@@ -244,7 +244,7 @@ DESIGN MOVES
 - Commercial interior design → `24-commercial-interior-design`
 - Finish spec binder → `26-finish-specification-binder`
 - Branding / naming → `49-design-naming` (cross-skill)
-- AI image generation for board augmentation → `57-ai-architecture-stack-claude-midjourney-veras`
+- AI image generation for board augmentation → `57-ai-architecture-stack-Codex-midjourney-veras`
 
 ### 7. Tone & self-check
 

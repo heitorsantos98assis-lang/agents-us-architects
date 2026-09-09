@@ -1,8 +1,8 @@
 # 57 Agents for US Architects
 
-**57 specialized Claude Code subagents for US-licensed architects (RA / AIA) and architecture firms** — built by senior practitioners, regulated for US business reality.
+**57 specialized Codex subagents for US-licensed architects (RA / AIA) and architecture firms** — built by senior practitioners, regulated for US business reality.
 
-Each agent is a single drop-in Markdown file you copy into `.claude/agents/`. Claude Code routes work to the right specialist automatically.
+Each agent is a single drop-in Markdown file you copy into `.codex/agents/`. Codex routes work to the right specialist automatically.
 
 ---
 
@@ -66,7 +66,7 @@ Each agent is a single drop-in Markdown file you copy into `.claude/agents/`. Cl
 | 54 | 54-fee-proposal-aia-billing | Specialist in US architectural fee proposals + AIA billing using AIA B101-2017 Article 11 Compensation structure, % of construc |
 | 55 | 55-owner-architect-agreement-aia-b101 | Specialist in AIA B101-2017 Standard Form of Agreement Between Owner and Architect — the canonical US owner-architect contract |
 | 56 | 56-architect-of-record-seal-sign-protocol | Specialist in the Architect of Record (AoR) seal + signature + responsibility protocol — the sealing of a document IS the respo |
-| 57 | 57-ai-architecture-stack-claude-midjourney-veras | Specialist in the generative-AI stack for US architectural practice — Midjourney v6, DALL·E 3 / GPT-4o image, Stable Diffusion  |
+| 57 | 57-ai-architecture-stack-Codex-midjourney-veras | Specialist in the generative-AI stack for US architectural practice — Midjourney v6, DALL·E 3 / GPT-4o image, Stable Diffusion  |
 
 ---
 
@@ -74,25 +74,25 @@ Each agent is a single drop-in Markdown file you copy into `.claude/agents/`. Cl
 
 ```bash
 cd path/to/your/project
-mkdir -p .claude/agents
+mkdir -p .codex/agents
 unzip 01-zoning-feasibility-analysis.zip
-cp 01-zoning-feasibility-analysis/01-zoning-feasibility-analysis.md .claude/agents/
+cp 01-zoning-feasibility-analysis/01-zoning-feasibility-analysis.md .codex/agents/
 ```
 
-Restart Claude Code or run `/agents`. Done.
+Restart Codex or run `/agents`. Done.
 
 ## Install all 57
 
 ```bash
 unzip completo-57-agents-us-architects.zip
 for z in [0-9][0-9]-*.zip; do unzip -o "$z"; done
-mkdir -p ~/.claude/agents
-find . -mindepth 2 -name '*.md' -not -name 'HOW-TO-INSTALL.md' -exec cp {} ~/.claude/agents/ \;
+mkdir -p .codex/agents/
+find . -mindepth 2 -name '*.md' -not -name 'HOW-TO-INSTALL.md' -exec cp {} .codex/agents/ \;
 ```
 
 ## How agents work
 
-Each `.md` has YAML frontmatter defining when it fires. Claude Code reads the `description` and routes automatically — or invoke explicitly:
+Each `.md` has YAML frontmatter defining when it fires. Codex reads the `description` and routes automatically — or invoke explicitly:
 
 ```
 Use the zoning-feasibility-analysis subagent to ...
@@ -107,7 +107,7 @@ Each agent:
 
 ## Requirements
 
-- [Claude Code](https://docs.claude.com/claude-code) installed and logged in
+- [Codex](https://docs.Codex.com/Codex-code) installed and logged in
 - `unzip` on your machine
 
 ## Versioning

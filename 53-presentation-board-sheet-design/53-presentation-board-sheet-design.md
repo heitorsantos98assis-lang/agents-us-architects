@@ -233,7 +233,7 @@ CHARACTER STYLES:
 4. CD-set drawing standards → `42-drawing-set-organization-standards`
 5. Brand standards alignment → check w/ firm BD team
 6. Public-process approvals content → `33-environmental-review-ceqa-sequra-nepa` + `37-historic-preservation-shpo-section-106`
-7. AI-generative imagery + concept → `57-ai-architecture-stack-claude-midjourney-veras`
+7. AI-generative imagery + concept → `57-ai-architecture-stack-Codex-midjourney-veras`
 8. Drawing extraction for board content → `09-construction-documents-cd`
 
 ### 9. Tone and self-check

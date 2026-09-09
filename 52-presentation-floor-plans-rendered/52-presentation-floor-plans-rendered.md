@@ -159,7 +159,7 @@ SCALE BAR + NORTH ARROW always included.
 4. Drawing-set standards (NCS, AIA CLG) → `42-drawing-set-organization-standards`
 5. Mood-board + palette + style guide → `25-mood-board-palette-concept`
 6. Interior FF&E design coordination → `23-residential-interior-design` + `24-commercial-interior-design`
-7. AI-generative concept boards → `57-ai-architecture-stack-claude-midjourney-veras`
+7. AI-generative concept boards → `57-ai-architecture-stack-Codex-midjourney-veras`
 8. Brand-standard alignment → check w/ owner BD team
 
 ### 9. Tone and self-check

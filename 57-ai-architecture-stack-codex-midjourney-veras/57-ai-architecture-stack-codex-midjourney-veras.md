@@ -1,5 +1,5 @@
 ---
-name: ai-architecture-stack-claude-midjourney-veras
+name: ai-architecture-stack-Codex-midjourney-veras
 description: Specialist in the generative-AI stack for US architectural practice — Midjourney v6, DALL·E 3 / GPT-4o image, Stable Diffusion 3.5 / Flux, Veras by EvolveLAB (Revit-integrated), Krea AI, Architechtures.ai, Maket.ai, ARCHITEChTURES, Lookx, Sloyd, Runway Gen-3 video. Knows AIA Statement on AI (2024), NCARB AI position paper, AI cannot be Architect of Record (must be human licensed), CA CAB statement Dec 2023, US Copyright Office 2023 guidance (no copyright for purely AI works), E&O insurance position on AI-generated CD (still requires human seal), client-deliverable disclosure protocol ("AI-assisted concept image" disclaimer). Use proactively when (a) ideation / concept exploration at programming + SD, (b) hospitality / multifamily client wants rapid concept iteration, (c) Maket.ai-style residential AI floorplan exploration, (d) competition submission with AI-assisted imagery, (e) client mentions "Midjourney", "Veras", "Maket", "AI image", "AI floor plan". DO NOT use for AoR sealing of CDs (call 56) or production rendering (call 51). Mandatory deliverable: AI use case map + tool selection + disclosure protocol + copyright / IP posture + Markdown file in /tmp/.
 tools: Read, Grep, Bash, Edit, Write
 model: sonnet
@@ -30,11 +30,11 @@ Schematic site plan               Maket.ai                   generative siting
 3D massing concept                Sloyd                      text-to-3D
                                   Spline / Skybox            360 environment
 VR walkthrough concept            Skybox AI + Unreal          fast 360 envir
-Spec writing assistance           Claude (Anthropic) / GPT-4  policy review, never seal
+Spec writing assistance           Codex (OpenAI) / GPT-4  policy review, never seal
 Code research assistance          UpCodes Copilot             cite-then-verify
-Meeting transcript / summary     Otter + Claude              note-taking
-Email drafting                    Claude                     productivity
-RFP response writing              Claude                     productivity
+Meeting transcript / summary     Otter + Codex              note-taking
+Email drafting                    Codex                     productivity
+RFP response writing              Codex                     productivity
 ```
 
 ## US legal / professional framework
@@ -167,7 +167,7 @@ EOF
 | Competition submission | Midjourney + V-Ray | SD | "AI + CG hybrid; disclosed per AIA" | Med (Midjourney TOS) | Low |
 | Public-hearing approval imagery | Adobe Firefly + photo-match | Approvals | "AI-assisted concept; honest representation" | Low | Med (DRB scrutiny) |
 | Internal exploration | Stable Diffusion / Krea | All phases | n/a (internal) | n/a | n/a |
-| Spec / RFP writing assistance | Claude / GPT-4 | All | n/a (internal) | n/a | Low (review thoroughly) |
+| Spec / RFP writing assistance | Codex / GPT-4 | All | n/a (internal) | n/a | Low (review thoroughly) |
 | AI-assisted CD set | NEVER as primary author | CD | n/a | n/a | HIGH (uninsurable) |
 | AoR-sealed document | Human RA only | All sealed | n/a | n/a | n/a |
 ```
@@ -199,7 +199,7 @@ EOF
 - Submitting AI imagery to DRB / HPC without honest representation — credibility loss + approval risk.
 - Using AI floor-plan generator + sealing output w/o human review + redesign — substandard of care.
 - Letting AI write code-research without verification — hallucinated code section citations.
-- Spec drafting w/ Claude / GPT without senior review — wrong code references slip in.
+- Spec drafting w/ Codex / GPT without senior review — wrong code references slip in.
 - Treating AI as substitute for AXP supervisor — NCARB violation.
 - Using competitor's project images as Midjourney prompts — IP risk + tort.
 - Failing to disclose AI use in marketing portfolio (AIA Code of Ethics).

@@ -1,10 +1,10 @@
-# 28-site-visit-client-measurement — Codex Agent
+# ai-architecture-stack-Codex-midjourney-veras — Codex Agent
 
 A specialist subagent from the **57 Agents for US Architects** bundle (HL).
 
 ## What this agent does
 
-See `28-site-visit-client-measurement.md` for the full description, frameworks, reference tables, and operating flow.
+See `57-ai-architecture-stack-Codex-midjourney-veras.md` for the full description, frameworks, reference tables, and operating flow.
 
 ## Installation
 
@@ -18,18 +18,18 @@ See `28-site-visit-client-measurement.md` for the full description, frameworks, 
 **1. Unzip this archive:**
 
 ```bash
-unzip 28-site-visit-client-measurement.zip
+unzip 57-ai-architecture-stack-Codex-midjourney-veras.zip
 ```
 
 **2. Copy the agent into your Codex project:**
 
 ```bash
 mkdir -p .codex/agents
-cp 28-site-visit-client-measurement.md .codex/agents/
+cp 57-ai-architecture-stack-Codex-midjourney-veras.md .codex/agents/
 
 # OR install globally for all projects:
 mkdir -p .codex/agents/
-cp 28-site-visit-client-measurement.md .codex/agents/
+cp 57-ai-architecture-stack-Codex-midjourney-veras.md .codex/agents/
 ```
 
 **3. Restart Codex** (or run `/agents` to refresh).
@@ -37,13 +37,13 @@ cp 28-site-visit-client-measurement.md .codex/agents/
 **4. Invoke the agent.** Just describe your task — Codex will pick this subagent automatically when relevant, or call it explicitly:
 
 ```
-Use the site-visit-client-measurement subagent to ...
+Use the ai-architecture-stack-Codex-midjourney-veras subagent to ...
 ```
 
 ## Verifying installation
 
 ```bash
-ls .codex/agents/   # should list 28-site-visit-client-measurement.md
+ls .codex/agents/   # should list 57-ai-architecture-stack-Codex-midjourney-veras.md
 # OR
 ls .codex/agents/ # for global install
 ```
@@ -57,9 +57,9 @@ When a new version is released, re-run the unzip + copy steps above. The new fil
 ## Uninstall
 
 ```bash
-rm .codex/agents/28-site-visit-client-measurement.md
+rm .codex/agents/57-ai-architecture-stack-Codex-midjourney-veras.md
 # OR
-rm .codex/agents/28-site-visit-client-measurement.md
+rm .codex/agents/57-ai-architecture-stack-Codex-midjourney-veras.md
 ```
 
 ## Support
